@@ -5,7 +5,7 @@ import Routes from './Routes';
 class Apps extends React.Component {
   render(){
     return (
-      <div className="flex-container">
+      <div className="root-apps">
         <Routes />
       </div>
     )
