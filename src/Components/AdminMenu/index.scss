@@ -1,1 +1,37 @@
 @import 'Style/global-import.scss';
+
+.admin-menu-wrapper {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  width: $menu-width;
+  background-color: $grey-dark2; 
+  color: white;
+  font-family: $font-kr;
+
+
+  .admin-menu-profile{
+
+  }
+
+  ul {
+
+
+    li {
+
+
+
+    }
+
+    li.admin-menu-highlited {
+
+    }
+  }
+
+  .admin-menu-logout {
+    
+  }
+
+
+}

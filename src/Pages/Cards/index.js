@@ -2,21 +2,15 @@ import React from 'react';
 import './index.scss';
 import * as constants from 'constants.js';
 import { withRouter } from 'react-router-dom';
+import AdminMenu from 'Components/AdminMenu';
 
-class Cards extends React.Component {
-  constructor(){
-    super();
-
-
-  }
-
-  render(){
-    return(
-      <div className="">
-
-      </div>
-    )
-  }
+const Cards = () => {
+  
+  return(
+    <div className="cards-wrapper">
+      <AdminMenu currentPage='카드 관리'/>
+    </div>
+  )
 }
 
 export default withRouter(Cards);

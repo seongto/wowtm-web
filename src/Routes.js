@@ -13,23 +13,20 @@ import UserImages from 'Pages/UserImages';
 import Cards from 'Pages/Cards';
 
 
-class Routes extends React.Component {
-  render() {
-    return (
-      <Router>
-        <Switch>
-          <Route exact path="/" component={Home} />
-          <Route path="/admin/dashboard" component={Dashboard} />
-          <Route path="/admin" component={Dashboard} />
-          <Route path="/admin/settings" component={Settings} />
-          <Route path="/admin/help" component={Help} />
-          <Route path="/admin/timeline" component={Timeline} />
-          <Route path="/admin/images" component={UserImages} />
-          <Route path="/admin/cards" component={Cards} />
-        </Switch>
-      </Router>
-    )
-  }
+const Routes = () => {
+  return (
+    <Router>
+      <Switch>
+        <Route exact path="/" component={Home} />
+        <Route path="/admin/dashboard" component={Dashboard} />
+        <Route path="/admin/settings" component={Settings} />
+        <Route path="/admin/help" component={Help} />
+        <Route path="/admin/timeline" component={Timeline} />
+        <Route path="/admin/images" component={UserImages} />
+        <Route path="/admin/cards" component={Cards} />
+      </Switch>
+    </Router>
+  )
 }
 
 export default Routes;
