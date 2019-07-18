@@ -1,9 +1,5 @@
 import React from 'react';
-import {
-  BrowserRouter as Router,
-  Route,
-  Switch,
-} from 'react-router-dom';
+import {BrowserRouter as Router, Route, Switch} from 'react-router-dom';
 import Home from 'Pages/Home';
 import Dashboard from 'Pages/Dashboard';
 import Help from 'Pages/Help';
@@ -11,7 +7,6 @@ import Settings from 'Pages/Settings';
 import Timeline from 'Pages/Timeline';
 import UserImages from 'Pages/UserImages';
 import Cards from 'Pages/Cards';
-
 
 const Routes = () => {
   return (
@@ -26,7 +21,7 @@ const Routes = () => {
         <Route path="/admin/cards" component={Cards} />
       </Switch>
     </Router>
-  )
-}
+  );
+};
 
 export default Routes;
