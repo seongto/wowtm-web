@@ -1,15 +1,12 @@
 import React from 'react';
 import Routes from './Routes';
 
-
-class Apps extends React.Component {
-  render(){
-    return (
-      <div className="flex-container">
-        <Routes />
-      </div>
-    )
-  }
-}
+const Apps = () => {
+  return (
+    <div className="root-apps-green">
+      <Routes />
+    </div>
+  );
+};
 
 export default Apps;

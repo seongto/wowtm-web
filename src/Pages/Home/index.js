@@ -3,20 +3,13 @@ import './index.scss';
 import * as constants from 'constants.js';
 import { withRouter } from 'react-router-dom';
 
-class Home extends React.Component {
-  constructor(){
-    super();
+const Home = () => {
+  
+  return(
+    <div className="home-wrapper">
 
-
-  }
-
-  render(){
-    return(
-      <div className="">
-
-      </div>
-    )
-  }
+    </div>
+  )
 }
 
 export default withRouter(Home);
