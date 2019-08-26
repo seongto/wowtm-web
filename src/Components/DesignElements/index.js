@@ -1,3 +1,6 @@
 import Seperator from './Seperator';
 
-export default Seperator;
+const nanana = () => {
+  return 'aa';
+};
+export {Seperator, nanana};

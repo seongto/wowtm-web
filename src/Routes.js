@@ -7,6 +7,7 @@ import Settings from 'Pages/Settings';
 import Timeline from 'Pages/Timeline';
 import UserImages from 'Pages/UserImages';
 import Cards from 'Pages/Cards';
+import ErrorNotFound from 'Pages/ErrorNotFound';
 
 const Routes = () => {
   return (
@@ -19,6 +20,8 @@ const Routes = () => {
         <Route path="/admin/timeline" component={Timeline} />
         <Route path="/admin/images" component={UserImages} />
         <Route path="/admin/cards" component={Cards} />
+
+        <Route component={ErrorNotFound} />
       </Switch>
     </Router>
   );

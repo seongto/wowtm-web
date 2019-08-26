@@ -4,7 +4,7 @@ import * as constants from 'constants.js';
 import {withRouter} from 'react-router-dom';
 import AdminMenu from 'Components/AdminMenu';
 import AdminTitle from 'Components/Texts';
-import Seperator from 'Components/DesignElements';
+import {Seperator} from 'Components/DesignElements';
 
 const currentPage = '이미지 관리';
 const UserImages = () => {

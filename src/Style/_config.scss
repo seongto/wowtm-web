@@ -15,3 +15,17 @@ $padd: 30px;
 $menu-width: 160px;
 
 $imgsrc: '';
+
+$test-green: (
+  name: '.selectGreen',
+  text-color: black,
+  bg-color: green,
+);
+
+$test-red: (
+  name: '.selectRed',
+  text-color: black,
+  bg-color: red,
+);
+
+$color-mods: $test-green, $test-red;
