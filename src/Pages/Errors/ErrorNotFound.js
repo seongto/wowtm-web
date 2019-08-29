@@ -1,5 +1,5 @@
 import React from 'react';
-import './index.scss';
+import './ErrorNotFound.scss';
 import {withRouter} from 'react-router-dom';
 
 const ErrorNotFound = props => {
