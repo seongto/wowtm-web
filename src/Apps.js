@@ -1,11 +1,11 @@
-import React from 'react';
-import Routes from './Routes';
-import {ThemeContext, AdminContext} from './Components/Contexts';
+import React from "react";
+import Routes from "./Routes";
+import { ThemeContext, AdminContext } from "./Components/Contexts";
 
 const Apps = () => {
   return (
-    <ThemeContext.Provider value={theme}>
-      <AdminContext.Provider value={signedInUser}>
+    <ThemeContext.Provider>
+      <AdminContext.Provider>
         <Routes />
       </AdminContext.Provider>
     </ThemeContext.Provider>
