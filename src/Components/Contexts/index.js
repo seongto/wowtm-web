@@ -1,4 +1,4 @@
-import AdminContext from './AdminContext';
-import ThemeContext from './ThemeContext';
+import AdminContext from "./AdminContext";
+import ThemeContext from "./ThemeContext";
 
-export {AdminContext, ThemeContext};
+export { AdminContext, ThemeContext };

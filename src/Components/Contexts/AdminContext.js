@@ -1,6 +1,8 @@
-import React from 'react';
+import React from "react";
 
-export const AdminContext = React.createContext({
+const AdminContext = React.createContext({
   team_id: 0,
-  user: 'guest',
+  user: "guest"
 });
+
+export default AdminContext;
