@@ -1,6 +1,8 @@
 import React from 'react';
 
-export const ThemeContext = React.createContext({
-  theme: 'white',
-  lang: 'en',
+const ThemeContext = React.createContext({
+  theme: '',
+  lang: '',
 });
+
+export default ThemeContext;

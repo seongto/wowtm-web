@@ -1,12 +1,14 @@
 import React from 'react';
 import Routes from './Routes';
-import {ThemeContext, AdminContext} from './Components/Contexts';
+import {ThemeContext, AdminContext, ModalContext} from './Components/Contexts';
 
 const Apps = () => {
   return (
-    <ThemeContext.Provider value={theme}>
-      <AdminContext.Provider value={signedInUser}>
-        <Routes />
+    <ThemeContext.Provider>
+      <AdminContext.Provider>
+        <ModalContext.Provider>
+          <Routes />
+        </ModalContext.Provider>
       </AdminContext.Provider>
     </ThemeContext.Provider>
   );
